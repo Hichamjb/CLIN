@@ -158,6 +158,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+venv_base/
 
 # Spyder project settings
 .spyderproject
@@ -218,3 +219,4 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+/data/oncomarl_breast/rl_transitions.csv

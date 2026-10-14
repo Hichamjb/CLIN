@@ -1,0 +1,9 @@
+table,rows
+patients,10000
+tumor_profiles,10000
+clinical_visits,120000
+clinical_events,178500
+treatment_history,120000
+treatment_decisions,120000
+outcomes,10000
+rl_transitions,110000

@@ -1,0 +1,121 @@
+{
+  "dataset_type": "SYNTHETIC",
+  "num_transitions": 110000,
+  "num_features": 34,
+  "actions": {
+    "CONTINUE_CURRENT_PATHWAY": 0,
+    "REASSESS_CURRENT_PATHWAY": 1,
+    "SWITCH_PATHWAY": 2,
+    "MULTIDISCIPLINARY_REASSESSMENT": 3
+  },
+  "numeric_fields": [
+    "age",
+    "performance_status",
+    "toxicity_grade",
+    "tumor_size_mm",
+    "tumor_size_trend",
+    "visit_number"
+  ],
+  "boolean_fields": [
+    "metastasis_new",
+    "metastasis_status",
+    "progression_flag",
+    "recurrence_flag",
+    "uncertainty_flag"
+  ],
+  "categorical_fields": [
+    "baseline_stage",
+    "current_pathway",
+    "disease_status",
+    "previous_response",
+    "tumor_subtype"
+  ],
+  "categories": {
+    "baseline_stage": [
+      "Stage 0",
+      "Stage I",
+      "Stage II",
+      "Stage III",
+      "Stage IV"
+    ],
+    "current_pathway": [
+      "HER2_PATHWAY_REVIEW",
+      "HORMONE_RECEPTOR_PATHWAY_REVIEW",
+      "LOCAL_MANAGEMENT_REVIEW",
+      "MULTIDISCIPLINARY_REASSESSMENT",
+      "SYSTEMIC_PATHWAY_REVIEW"
+    ],
+    "disease_status": [
+      "PROGRESSING",
+      "RECURRED",
+      "REMISSION_LIKE",
+      "RESPONDING",
+      "STABLE"
+    ],
+    "previous_response": [
+      "CR_LIKE",
+      "NA",
+      "PD",
+      "PR",
+      "SD"
+    ],
+    "tumor_subtype": [
+      "HER2_POS",
+      "HR_POS_HER2_NEG",
+      "TRIPLE_NEG"
+    ]
+  },
+  "numeric_mean": [
+    56.288299560546875,
+    1.0016000270843506,
+    0.6473727226257324,
+    32.87946701049805,
+    -0.01837247610092163,
+    6.0
+  ],
+  "numeric_std": [
+    16.66239356994629,
+    0.8173099160194397,
+    0.7215949296951294,
+    42.18463134765625,
+    0.22226843237876892,
+    3.1622776985168457
+  ],
+  "feature_names": [
+    "age",
+    "performance_status",
+    "toxicity_grade",
+    "tumor_size_mm",
+    "tumor_size_trend",
+    "visit_number",
+    "metastasis_new",
+    "metastasis_status",
+    "progression_flag",
+    "recurrence_flag",
+    "uncertainty_flag",
+    "baseline_stage=Stage 0",
+    "baseline_stage=Stage I",
+    "baseline_stage=Stage II",
+    "baseline_stage=Stage III",
+    "baseline_stage=Stage IV",
+    "current_pathway=HER2_PATHWAY_REVIEW",
+    "current_pathway=HORMONE_RECEPTOR_PATHWAY_REVIEW",
+    "current_pathway=LOCAL_MANAGEMENT_REVIEW",
+    "current_pathway=MULTIDISCIPLINARY_REASSESSMENT",
+    "current_pathway=SYSTEMIC_PATHWAY_REVIEW",
+    "disease_status=PROGRESSING",
+    "disease_status=RECURRED",
+    "disease_status=REMISSION_LIKE",
+    "disease_status=RESPONDING",
+    "disease_status=STABLE",
+    "previous_response=CR_LIKE",
+    "previous_response=NA",
+    "previous_response=PD",
+    "previous_response=PR",
+    "previous_response=SD",
+    "tumor_subtype=HER2_POS",
+    "tumor_subtype=HR_POS_HER2_NEG",
+    "tumor_subtype=TRIPLE_NEG"
+  ],
+  "warning": "Synthetic experimental data only. Not validated for clinical decision-making."
+}

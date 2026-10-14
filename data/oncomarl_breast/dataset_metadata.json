@@ -1,0 +1,50 @@
+{
+  "dataset_name": "OncoMARL Synthetic Breast Cancer Dataset",
+  "dataset_version": "1.0.0",
+  "generation_timestamp": "2026-10-14T13:39:51.206688Z",
+  "random_seed": 42,
+  "patient_count": 10000,
+  "visits_per_patient": 12,
+  "clinical_visits_rows": 120000,
+  "clinical_events_rows": 178500,
+  "rl_transitions_rows": 110000,
+  "cancer_type": "breast_cancer_only",
+  "synthetic_disclaimer": "SYNTHETIC DATA - not real clinical evidence; not validated; must not be used for diagnosis, treatment selection, or any real medical decision. For software/simulation/RL methodology research only.",
+  "reward_weights": {
+    "policy_consistency": 1.0,
+    "unnecessary_switch_penalty": 0.5,
+    "toxicity_handling": 0.3,
+    "progression_handling": 0.4,
+    "reassessment_triggered": 0.2
+  },
+  "detection_threshold_mm": 5.0,
+  "progression_rel_threshold": 0.2,
+  "response_rel_threshold": 0.3,
+  "toxicity_reassess_threshold": 3,
+  "uncertainty_std_threshold": 0.1,
+  "pathways": [
+    "LOCAL_MANAGEMENT_REVIEW",
+    "HORMONE_RECEPTOR_PATHWAY_REVIEW",
+    "HER2_PATHWAY_REVIEW",
+    "SYSTEMIC_PATHWAY_REVIEW",
+    "MULTIDISCIPLINARY_REASSESSMENT"
+  ],
+  "actions": [
+    "CONTINUE_CURRENT_PATHWAY",
+    "REASSESS_CURRENT_PATHWAY",
+    "SWITCH_PATHWAY",
+    "MULTIDISCIPLINARY_REASSESSMENT"
+  ],
+  "subtypes": [
+    "HR_POS_HER2_NEG",
+    "HER2_POS",
+    "TRIPLE_NEG"
+  ],
+  "stages": [
+    "Stage 0",
+    "Stage I",
+    "Stage II",
+    "Stage III",
+    "Stage IV"
+  ]
+}

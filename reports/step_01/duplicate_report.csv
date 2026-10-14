@@ -1,0 +1,12 @@
+file_name,total_rows,duplicate_rows,duplicate_column_names
+action_distribution.csv,4,0,0
+clinical_events.csv,178500,0,0
+clinical_visits.csv,120000,0,0
+outcomes.csv,10000,0,0
+pathway_distribution.csv,5,0,0
+patients.csv,10000,0,0
+rl_transitions.csv,110000,0,0
+scenario_distribution.csv,15,0,0
+treatment_decisions.csv,120000,0,0
+treatment_history.csv,120000,0,0
+tumor_profiles.csv,10000,0,0

@@ -1,0 +1,84 @@
+====================================================================
+ONCOMARL - STEP 03: DESCRIPTIVE STATISTICAL ANALYSIS
+====================================================================
+
+Patients: 10,000
+Clinical visits: 120,000
+Clinical events: 178,500
+Treatment decisions: 120,000
+RL transitions: 110,000
+
+AGE SUMMARY
+--------------------------------------------------------------------
+count    10000.000000
+mean        56.288300
+std         16.663179
+min         28.000000
+25%         42.000000
+50%         56.000000
+75%         71.000000
+max         85.000000
+
+BASELINE TUMOR SIZE SUMMARY (mm)
+--------------------------------------------------------------------
+count    10000.000000
+mean        34.949120
+std         21.192073
+min          5.000000
+25%         17.200000
+50%         32.600000
+75%         47.100000
+max        100.000000
+
+FINAL TUMOR SIZE SUMMARY (mm)
+--------------------------------------------------------------------
+count    10000.000000
+mean        52.471800
+std         98.131432
+min          0.000000
+25%          8.900000
+50%         25.300000
+75%         50.400000
+max       1466.500000
+
+TUMOR SIZE OUTLIERS
+--------------------------------------------------------------------
+Visit records > 500 mm: 200
+Outcome records > 500 mm: 99
+
+RL REWARD SUMMARY
+--------------------------------------------------------------------
+count    110000.000000
+mean          1.055067
+std           0.134551
+min           1.000000
+25%           1.000000
+50%           1.000000
+75%           1.000000
+max           1.700000
+
+MEAN TUMOR SIZE BY VISIT
+--------------------------------------------------------------------
+ visit_number  patients  mean_tumor_size_mm  median_tumor_size_mm
+            1     10000            34.96030                 32.60
+            2     10000            32.07095                 28.90
+            3     10000            30.03665                 25.20
+            4     10000            28.21211                 22.20
+            5     10000            26.87266                 19.90
+            6     10000            27.51404                 19.20
+            7     10000            29.31610                 19.40
+            8     10000            32.00989                 20.10
+            9     10000            35.42896                 21.00
+           10     10000            39.81008                 22.20
+           11     10000            45.44167                 23.75
+           12     10000            52.47180                 25.30
+
+IMPORTANT
+--------------------------------------------------------------------
+This analysis describes synthetic data only.
+Observed outcome proportions are not real-world clinical rates.
+Descriptive associations do not prove treatment effectiveness.
+No original data files were modified.
+
+Tables directory: /home/hicham/Desktop/project/Trip_Agent/CLIN/reports/step_03/tables
+Figures directory: /home/hicham/Desktop/project/Trip_Agent/CLIN/reports/step_03/figures

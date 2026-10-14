@@ -1,0 +1,16 @@
+file_name,identifier_column,total_rows,non_null_count,missing_count,unique_count,duplicate_non_null_count,appears_unique
+clinical_events.csv,patient_id,178500,178500,0,10000,168500,False
+clinical_events.csv,visit_id,178500,178500,0,120000,58500,False
+clinical_events.csv,event_id,178500,178500,0,178500,0,True
+clinical_visits.csv,patient_id,120000,120000,0,10000,110000,False
+clinical_visits.csv,visit_id,120000,120000,0,120000,0,True
+outcomes.csv,patient_id,10000,10000,0,10000,0,True
+patients.csv,patient_id,10000,10000,0,10000,0,True
+rl_transitions.csv,patient_id,110000,110000,0,10000,100000,False
+rl_transitions.csv,transition_id,110000,110000,0,110000,0,True
+treatment_decisions.csv,patient_id,120000,120000,0,10000,110000,False
+treatment_decisions.csv,visit_id,120000,120000,0,120000,0,True
+treatment_decisions.csv,decision_id,120000,120000,0,120000,0,True
+treatment_history.csv,patient_id,120000,120000,0,10000,110000,False
+treatment_history.csv,visit_id,120000,120000,0,120000,0,True
+tumor_profiles.csv,patient_id,10000,10000,0,10000,0,True

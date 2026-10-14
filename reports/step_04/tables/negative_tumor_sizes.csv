@@ -1,0 +1,1 @@
+visit_id,patient_id,visit_number,visit_date,tumor_size_mm,lymph_node_status,metastasis_status,disease_status,er_percent,pr_percent,her2_score,ki67_percent,wbc,hemoglobin,platelets,alt,ast,creatinine,toxicity_grade,toxicity_type,current_pathway,response_category,recurrence_status,progression_status,synthetic_flag

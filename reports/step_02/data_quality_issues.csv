@@ -1,0 +1,3 @@
+category,table,column,issue_count,details
+OUT_OF_RANGE,clinical_visits,tumor_size_mm,200,"Expected values between 0 and 500, inclusive."
+OUT_OF_RANGE,outcomes,final_tumor_size_mm,99,"Expected values between 0 and 500, inclusive."

@@ -1,0 +1,8 @@
+{
+  "dataset_version": "fixture-1.0.0",
+  "random_seed": 7,
+  "patient_count": 8,
+  "visits_per_patient": 12,
+  "cancer_type": "breast_cancer_only",
+  "synthetic_disclaimer": "SYNTHETIC test fixture \u2014 not real data."
+}

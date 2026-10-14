@@ -1,0 +1,19 @@
+{
+  "dataset_type": "SYNTHETIC",
+  "environment": "OncoMARL v2",
+  "seed": 42,
+  "patients": 10000,
+  "transitions": 120000,
+  "state_dim": 5,
+  "action_dim": 4,
+  "actions": {
+    "0": "CONTINUE_CURRENT_PATHWAY",
+    "1": "REASSESS_CURRENT_PATHWAY",
+    "2": "SWITCH_PATHWAY",
+    "3": "MULTIDISCIPLINARY_REASSESSMENT"
+  },
+  "max_visits": 12,
+  "policy": "uniform_random",
+  "clinical_validity": false,
+  "intended_use": "software and RL research only"
+}

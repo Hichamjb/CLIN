@@ -1,0 +1,9 @@
+patient_id,age,sex,diagnosis_date,baseline_stage,tumor_subtype,baseline_tumor_size_mm,lymph_node_involvement,baseline_metastasis_status,performance_status,comorbidities,risk_factors,medical_history,scenario,synthetic_flag
+P0000,64,F,2020-01-01,Stage I,HR_POS_HER2_NEG,47.5,FALSE,FALSE,2,none,family_history,none,F,SYNTHETIC
+P0001,71,F,2020-01-01,Stage II,HER2_POS,56.5,FALSE,FALSE,0,none,family_history,none,F,SYNTHETIC
+P0002,44,F,2020-01-01,Stage III,TRIPLE_NEG,28.0,TRUE,FALSE,2,none,family_history,none,F,SYNTHETIC
+P0003,54,F,2020-01-01,Stage IV,HR_POS_HER2_NEG,10.3,TRUE,TRUE,2,none,family_history,none,F,SYNTHETIC
+P0004,35,F,2020-01-01,Stage I,HER2_POS,57.8,FALSE,FALSE,1,none,family_history,none,F,SYNTHETIC
+P0005,47,F,2020-01-01,Stage II,TRIPLE_NEG,28.2,FALSE,FALSE,0,none,family_history,none,F,SYNTHETIC
+P0006,79,F,2020-01-01,Stage III,HR_POS_HER2_NEG,25.3,TRUE,FALSE,1,none,family_history,none,F,SYNTHETIC
+P0007,59,F,2020-01-01,Stage IV,HER2_POS,40.3,TRUE,TRUE,1,none,family_history,none,F,SYNTHETIC

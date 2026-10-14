@@ -1,0 +1,41 @@
+ONCOMARL - STEP 04 AUDIT
+============================================================
+
+IMPORTANT: The dataset is synthetic.
+This audit does not establish clinical validity or treatment efficacy.
+
+LAST VISIT VS FINAL OUTCOME
+Patients represented in comparison: 10000
+Patients missing from one side: 0
+Tumor size mismatches: 0 / 10000
+Tumor size comparison tolerance: 1e-6 mm
+Disease status mismatches: 0
+Response mismatches: 0
+progression_status vs progression_ever: 0 disagreements / 10000 comparable patients
+recurrence_status vs recurrence_ever: 0 disagreements / 10000 comparable patients
+metastasis_status vs metastasis_ever: 0 disagreements / 10000 comparable patients
+
+RL REWARD SUMMARY
+ count  missing     mean      std  min  p01  p05  p25  median  p75  p95  p99  max  unique_values  fraction_equal_to_1
+110000        0 1.055067 0.134551  1.0  1.0  1.0  1.0     1.0  1.0  1.4  1.4  1.7              4             0.854527
+
+REWARD BY ACTION
+                        action  count     mean      std  min  median  max
+      CONTINUE_CURRENT_PATHWAY  66692 1.000000 0.000000  1.0     1.0  1.0
+MULTIDISCIPLINARY_REASSESSMENT   1405 1.408968 0.051106  1.4     1.4  1.7
+      REASSESS_CURRENT_PATHWAY  30866 1.034601 0.095830  1.0     1.0  1.3
+                SWITCH_PATHWAY  11037 1.400000 0.000000  1.4     1.4  1.4
+
+EXTREME TUMOR VALUES
+Negative visit tumor sizes: 0
+Visit tumor sizes > 500 mm: 200
+Negative final tumor sizes: 0
+Final tumor sizes > 500 mm: 99
+
+INTERPRETATION RULES
+----------------------------------------
+1. The dataset is synthetic, not real clinical evidence.
+2. A mismatch is an audit finding, not automatically a data error.
+3. Extreme values were exported for inspection, not deleted.
+4. Reward associations do not establish treatment efficacy.
+5. Review the reward-generation logic before policy training.

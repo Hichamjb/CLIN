@@ -1,0 +1,2 @@
+count,missing,mean,std,min,p01,p05,p25,median,p75,p95,p99,max,unique_values,fraction_equal_to_1
+110000,0,1.0550672727272727,0.1345508895319973,1.0,1.0,1.0,1.0,1.0,1.0,1.4,1.4,1.7,4,0.8545272727272727

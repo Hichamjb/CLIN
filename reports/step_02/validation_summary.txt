@@ -1,0 +1,35 @@
+====================================================================
+ONCOMARL - STEP 02: DATA QUALITY VALIDATION
+====================================================================
+Input directory: /home/hicham/Desktop/project/Trip_Agent/CLIN/data/oncomarl_breast
+Output directory: /home/hicham/Desktop/project/Trip_Agent/CLIN/reports/step_02
+
+TABLE ROW COUNTS
+--------------------------------------------------------------------
+patients: 10,000 rows
+tumor_profiles: 10,000 rows
+clinical_visits: 120,000 rows
+clinical_events: 178,500 rows
+treatment_history: 120,000 rows
+treatment_decisions: 120,000 rows
+outcomes: 10,000 rows
+rl_transitions: 110,000 rows
+
+VALIDATION SUMMARY
+--------------------------------------------------------------------
+Total issue categories/records: 2
+OUT_OF_RANGE: 299
+
+IMPORTANT INTERPRETATION
+--------------------------------------------------------------------
+A detected issue is a signal to investigate, not always proof of an error.
+Some range limits are broad screening rules and must be reviewed.
+Synthetic data validation does not establish clinical validity.
+Original data files were not modified.
+
+Generated reports:
+- data_quality_issues.csv
+- quality_metrics.csv
+- issue_summary_by_category.csv
+- visit_count_distribution.csv
+- visit_sequence_anomalies.csv
